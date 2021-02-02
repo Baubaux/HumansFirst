@@ -1,0 +1,25 @@
+$primary-color: #2F4F4F;
+$secondary-color: #9FBBBB;
+
+body {
+    background-color: white;
+    font-family: 'inter', sans-serif;
+}
+
+h1, h2, h3 {
+    display: flex;
+    justify-content: center;
+    color: $primary-color;
+}
+
+.main {
+    margin: 20px;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    color: $primary-color;
+    text-transform: uppercase;
+
+}

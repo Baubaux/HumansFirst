@@ -1,0 +1,41 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid ;
+    border-color: lightgrey;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px grey;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-picture {
+    margin-top: 20px;
+    max-width: 100px;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.card-paragraph {
+    text-align: center;
+}
+
+.card-question {
+    text-transform: uppercase;
+    .card-button {
+        background-color: $primary-color;
+        color: white;
+        font-size: 20px;
+        padding: 8px;
+        margin: 0px 10px 10px 10px;
+    }
+}
+
+li {
+    justify-content: center;
+    margin-bottom: 5px; 
+    text-transform: uppercase;
+}
