@@ -1,7 +1,13 @@
-h1{
-    color: red;
+body{
+    margin: 0;
+}
+h2, h3{
     text-align: center;
+    color: #2F4F4F;
 }
 .navbar-collapse{
     justify-content: center;
+}
+.card{
+    border-radius: 20px;
 }

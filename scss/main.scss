@@ -14,10 +14,14 @@
 @import "node_modules/bootstrap/scss/grid";
 
 //Bootstrap Card 
-@import "node_modules/bootstrap/scss/card";
+// @import "node_modules/bootstrap/scss/card";
 
 // Base
 @import 'base';
+@import 'header';
+@import 'footer';
 
 // Layout 
-@import 'header';
+@import 'services_homepage';
+@import 'emploi_homepage';
+@import 'contact_homepage'

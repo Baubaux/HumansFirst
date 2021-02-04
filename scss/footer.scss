@@ -1,0 +1,26 @@
+footer{
+    background-color: darkslategray;
+    color: white;
+    padding-left: 5%;
+    font-size: 1rem;
+}
+.footer__content{
+    font-size: 0.8rem;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer ul{
+    margin-bottom: 0;
+}
+.footer__link--nav{
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.footer__link--nav>li{
+    margin-right: 5px;
+    font-size: 0.7rem;
+}
